@@ -5,9 +5,9 @@ Miminales Beispiele für Akzeptanztests in Java mit cuke4duke
 Das Beispiel zeigt wie mit Java und cuke4duke Ankzeptanztests
 geschrieben werden können. 
 
-Um die Tests auszuführen benötigt man ein aktuelles JDK und Ant. Um die Tests
-auszuführen muss im dem Projektverzeichnis einfach nur ``ant`` ausgeführt
-werden.
+Um die Tests auszuführen benötigt man ein aktuelles JDK und Ant. Die Tests
+werden mit einem einfachen ``ant`` ausgeführt. Wenn man die Ausgabe in bunt und
+ohne die jeweiligen Ant-Tasks haben möchte, benutzt man ``ant -e console``.
 
 - cuke4duke: http://github.com/aslakhellesoy/cuke4duke/
 - cucumber: http://github.com/aslakhellesoy/cucumber/

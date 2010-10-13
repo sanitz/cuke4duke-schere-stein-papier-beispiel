@@ -1,0 +1,11 @@
+default:  --require target/test-classes  features
+
+console: --verbose --require target/test-classes --color --format pretty features
+
+html: --require target/test-classes --format html --out target/tests.html features
+
+current: --verbose --require target/test-classes --color -s  --format pretty features
+
+help: --help
+
+## --verbose --require target/test-classes --no-color --format pretty --format junit --out target/junit-report --format html --out target/akzeptanztests.html features
