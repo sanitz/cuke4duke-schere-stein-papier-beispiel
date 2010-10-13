@@ -17,3 +17,5 @@ ohne die jeweiligen Ant-Tasks haben möchte, benutzt man ``ant -e console``.
 
 Sebastian Sanitz sebastian.sanitz@it-agile.de
 
+Die Variante mit Tabellen liegen im Branch `szenario_mit_tabelle <tree/szenario_mit_tabelle>`_.
+
