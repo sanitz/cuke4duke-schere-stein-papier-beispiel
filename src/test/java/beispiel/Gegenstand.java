@@ -11,8 +11,7 @@ public enum Gegenstand {
     Stein {
         @Override
         boolean gewinntGegen(Gegenstand gegner) {
-            // TODO Gewinnt der wirklich gegen Stein? -> Fachabteilung fragen!
-            return gegner == Stein;
+            return gegner == Schere;
         }
 
     },
